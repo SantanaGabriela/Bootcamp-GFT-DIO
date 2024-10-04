@@ -1,4 +1,3 @@
-// Classe Heroi
 class Heroi {
     constructor(nome, idade, tipo) {
         this.nome = nome;
@@ -6,7 +5,6 @@ class Heroi {
         this.tipo = tipo;
     }
 
-    // Método atacar
     atacar() {
         let ataque;
 
@@ -33,7 +31,7 @@ class Heroi {
     }
 }
 
-// Criação de heróis e demonstração de ataques
+
 const herois = [
     new Heroi('Merlin', 150, 'mago'),
     new Heroi('Conan', 35, 'guerreiro'),
@@ -41,5 +39,5 @@ const herois = [
     new Heroi('Ryu', 28, 'ninja')
 ];
 
-// Todos os heróis atacam
+
 herois.forEach(heroi => heroi.atacar());
